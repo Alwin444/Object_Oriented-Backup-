@@ -10,8 +10,10 @@ int main()
     cout<<"Content in the pointer: "<<*ptr<<endl;
     cout<<"--------------------Incrementing pointer---------------------"<<endl;
     for(i=1;i<5;i++)
-     cout<<"Content in addres"<<(ptr+i)<<" is: "<<*(ptr+i)<<endl;
-     ptr = &array[4];
+    {
+      ptr++;
+      cout<<"Content in addres"<<ptr<<" is: "<<*ptr<<endl;
+    }
     cout<<"--------------------Decrementing pointer---------------------"<<endl;
     for(i=0;i<5;i++)
     {
