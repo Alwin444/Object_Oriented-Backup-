@@ -8,6 +8,7 @@ int main()
     cout<<"Address stored by pointer: "<<ptr<<endl;
     cout<<"First element in the array: "<<array[0]<<endl;
     cout<<"Content in the pointer: "<<*ptr<<endl;
+    cout<<"Addres of the pointer: "<<&ptr<<endl;
     cout<<"--------------------Incrementing pointer---------------------"<<endl;
     for(i=1;i<5;i++)
     {
