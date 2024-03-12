@@ -29,7 +29,7 @@ class B:public A
 {
     
 };
-class C:public B
+class C:public A
 {
     
 };
